@@ -8,24 +8,24 @@ body, h1, h2, h3, h4, p {
 /* Set the body styles */
 body {
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #36393f; /* Discord achtergrondkleur */
+    background-color: #36393f; /* Discord background color */
     background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png');
     background-size: cover;
-    color: #36393f;
+    color: #ffffff; /* Change text color to white for better contrast */
     line-height: 1.6;
 }
 
 /* Container for the entire page */
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Changed to row for sidebar layout */
     height: 100vh;
 }
 
 /* Header styles */
 header {
     background-color: #36393f; /* Discord header color */
-    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png')
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png'); /* Added missing semicolon */
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -34,7 +34,7 @@ header {
 
 /* Sidebar styles */
 .sidebar {
-    background-color: #343a40;
+    background-color: #36393f; /* Keep consistent with body color */
     color: #ffffff;
     padding: 15px;
     width: 200px;
@@ -55,7 +55,7 @@ header {
 }
 
 .sidebar ul li a {
-    color: white;
+    color: white; /* Link color */
     text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ header {
 
 .command-item h4 {
     margin-bottom: 5px;
-    color: #007BFF;
+    color: #007BFF; /* Link color for command items */
 }
 
 /* Footer styles */
@@ -93,10 +93,10 @@ footer {
 /* Responsive styles */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
+        flex-direction: column; /* Stack sidebar and content on smaller screens */
     }
 
     .sidebar {
-        width: 100%;
+        width: 100%; /* Full width for sidebar on small screens */
     }
 }
