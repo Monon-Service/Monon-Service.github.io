@@ -33,12 +33,13 @@ header {
 .discord-title {
     display: flex; /* Flexbox voor uitlijning */
     align-items: center; /* Verticaal centreren van logo en tekst */
+    justify-content: center; /* Horizontaal centreren van logo en tekst */
 }
 
 /* Logo stijl */
 .title-logo {
     width: 30px;  /* Specifieke breedte instellen */
-    height: auto; /* Hoogte automatisch voor aspect ratio */
+    height: 30px; /* Specifieke hoogte instellen om vervaging te voorkomen */
     margin-right: 10px; /* Voeg wat ruimte toe tussen het logo en de tekst */
 }
 
