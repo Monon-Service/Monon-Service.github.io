@@ -48,14 +48,17 @@ header {
 .button {
     background-color: #7289da; /* Discord-blauw */
     color: #ffffff;
-    padding: 10px 30px;
+    padding: 10px 30px; /* Verminder de verticale padding */
     margin: 15px 0; /* Ruimte tussen knoppen */
     border: none;
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
+    line-height: 1.2; /* Pas de lijnhoogte aan indien nodig */
     transition: background-color 0.3s, transform 0.2s; /* Voor overgangseffecten */
+    display: inline-block; /* Zorg ervoor dat de knop geen volledige breedte in beslag neemt */
 }
+
 
 .button:hover {
     background-color: #5b6eae; /* Donkerdere kleur bij hover */
