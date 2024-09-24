@@ -1,146 +1,97 @@
-/* Basic reset */
-* {
+/* Reset some default styles */
+body, h1, h2, h3, h4, p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Set the body styles */
 body {
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #2c2f33; /* Donkere achtergrondkleur van Discord */
-    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png'); /* Subtiele textuur voor achtergrond */
-    background-size: cover;  /* Zorgt ervoor dat de achtergrond zich uitstrekt over de hele pagina */
-    color: #ffffff; /* Witte tekstkleur */
-    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-/* Container Stijl */
+/* Container for the entire page */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
     display: flex;
-    flex-direction: column; /* Verticaal uitlijnen */
-    align-items: center; /* Centreert alles in het midden */
+    flex-direction: column;
+    height: 100vh;
 }
 
-/* Header Stijl */
+/* Header styles */
 header {
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #7289da; /* Grijze lijn onder de header */
-}
-
-/* Discord Title Stijl */
-.discord-title {
-    font-family: 'Poppins', sans-serif; /* Titel in Discord-stijl font */
-    font-size: 3em;
-    color: #7289da; /* Discord-blauw */
-    letter-spacing: 2px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; /* Ruimte tussen logo en tekst */
-}
-
-/* Stijl voor de beschrijving onder de titel */
-header p {
-    color: #99aab5; /* Lichtere kleur voor de ondertitel */
-    margin-top: 10px;
-}
-
-/* Stijl voor het logo in de titel */
-.title-logo {
-    width: 50px; /* Pas de grootte van het logo aan naar wens */
-    height: auto;
-}
-
-/* Knop Stijl */
-.button {
-    background-color: #7289da; /* Discord-blauw */
-    color: #ffffff; /* Witte tekstkleur */
-    padding: 15px 30px;
-    margin: 15px 0; /* Ruimte tussen knoppen */
-    border: none;
-    border-radius: 5px; /* Ronde hoeken */
-    text-decoration: none;
-    font-size: 16px;
-    transition: background-color 0.3s, transform 0.2s; /* Voor overgangseffecten */
-}
-
-.button:hover {
-    background-color: #5b6eae; /* Donkerdere kleur bij hover */
-    transform: scale(1.05); /* Vergroot een beetje bij hover */
-}
-
-/* Stijl voor secties */
-.bot-info, .commands, .contact {
-    margin: 20px 0;
-}
-
-/* Sectie kopjes */
-h2 {
-    font-size: 1.8em;
-    color: #7289da; /* Discord-blauw */
-    margin-bottom: 15px;
-}
-
-/* Kaarten voor de bot-informatie */
-.bot-card {
-    background-color: #23272a; /* Donkere achtergrond voor kaarten */
+    background-color: #007BFF;
+    color: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Schaduw effect */
-}
-
-.bot-card h2 {
-    margin-bottom: 10px;
-}
-
-.bot-card p {
-    color: #b9bbbe; /* Lichtere kleur voor tekst */
-}
-
-/* Commandolijststijl */
-.command-list {
-    display: flex;
-    flex-direction: column; /* Lijst verticaal weergeven */
-}
-
-/* Stijl voor individuele commando-items */
-.command-item {
-    background-color: #23272a; /* Donkere achtergrond voor individuele commando's */
-    margin-bottom: 15px; /* Ruimte tussen commando-items */
-    padding: 15px;
-    border-radius: 8px; /* Ronde hoeken */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Schaduw effect */
-}
-
-.command-item h3 {
-    color: #7289da; /* Discord-blauw voor kopjes */
-    margin-bottom: 8px;
-}
-
-.command-item p {
-    color: #b9bbbe; /* Lichtere kleur voor tekst */
-}
-
-/* Stijl voor contactlinks */
-.contact a {
-    color: #7289da; /* Discord-blauw voor links */
-    text-decoration: none; /* Geen onderlijning */
-}
-
-/* Footer Stijl */
-footer {
     text-align: center;
-    padding: 15px;
-    background-color: #23272a; /* Donkere achtergrondkleur voor footer */
-    margin-top: 20px;
-    border-top: 1px solid #7289da; /* Grijze lijn boven de footer */
 }
 
-footer p {
-    color: #99aab5; /* Lichtere kleur voor footertekst */
+/* Sidebar styles */
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.command-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.command-item h4 {
+    margin-bottom: 5px;
+    color: #007BFF;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
 }
