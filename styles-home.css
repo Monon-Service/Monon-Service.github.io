@@ -14,6 +14,7 @@ body {
     line-height: 1.6;
 }
 
+/* Container Stijl */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -30,8 +31,9 @@ header {
 
 /* Logo stijl */
 .title-logo {
-    max-width: 50px; /* Pas de grootte van de logo aan naar wens */
+    max-width: 30px; /* Maak de logo kleiner */
     vertical-align: middle; /* Zorgt ervoor dat de logo goed uitgelijnd is met de tekst */
+    margin-right: 10px; /* Voeg wat ruimte toe tussen het logo en de tekst */
 }
 
 /* Sidebar Stijl */
@@ -66,12 +68,13 @@ header {
     display: flex;
     flex-direction: column; /* Zorgt ervoor dat elementen onder elkaar staan */
     justify-content: flex-start; /* Zorgt ervoor dat alles aan de bovenkant begint */
+    text-align: center; /* Zorgt ervoor dat de tekst in het midden staat */
 }
 
 /* Sectie Stijlen */
 .features, .cta {
     margin: 20px 0;
-    text-align: left; /* Zorg ervoor dat de tekst links uitgelijnd is */
+    text-align: center; /* Zorg ervoor dat de tekst in het midden staat */
 }
 
 .features h3, .cta h3 {
@@ -79,9 +82,11 @@ header {
 }
 
 .features ul {
-    padding-left: 20px; /* Voeg padding toe voor een nette lijst */
+    padding-left: 0; /* Verwijder padding om de lijst mooi in het midden te krijgen */
+    list-style-position: inside; /* Zorgt ervoor dat lijsten mooi zijn uitgelijnd */
 }
 
+/* Call-to-action sectie */
 .cta {
     margin-top: 20px; /* Voegt extra ruimte toe voor de call-to-action sectie */
 }
