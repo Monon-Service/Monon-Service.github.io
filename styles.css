@@ -32,6 +32,10 @@ header {
     color: #7289da;
     letter-spacing: 2px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Ruimte tussen logo en tekst */
 }
 
 header p {
@@ -39,13 +43,10 @@ header p {
     margin-top: 10px;
 }
 
-/* Stijl voor het logo */
-.logo {
-    display: block;
-    margin: 0 auto;
-    width: 150px; /* Pas de grootte van het logo aan naar wens */
+/* Stijl voor het logo in de titel */
+.title-logo {
+    width: 50px; /* Pas de grootte van het logo aan naar wens */
     height: auto;
-    padding-bottom: 20px;
 }
 
 .bot-info, .commands, .contact {
