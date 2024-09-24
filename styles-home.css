@@ -19,6 +19,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     display: flex; /* Flexbox voor lay-out */
+    flex-direction: column; /* Staand maken van de container */
 }
 
 /* Header Stijl */
@@ -41,6 +42,13 @@ header {
     width: 30px;  /* Specifieke breedte instellen */
     height: 30px; /* Specifieke hoogte instellen om vervaging te voorkomen */
     margin-right: 10px; /* Voeg wat ruimte toe tussen het logo en de tekst */
+}
+
+/* Subtitle Stijl */
+.subtitle {
+    margin-top: 10px; /* Voeg ruimte toe boven de ondertitel */
+    font-size: 16px; /* Pas de grootte van de ondertitel aan */
+    color: #99aab5; /* Lichtere kleur voor ondertitel */
 }
 
 /* Sidebar Stijl */
