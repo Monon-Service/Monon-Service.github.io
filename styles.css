@@ -8,8 +8,11 @@ body, h1, h2, h3, h4, p {
 /* Set the body styles */
 body {
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #36393f; /* Discord achtergrondkleur */
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png');
+    background-size: cover;
+    color: #ffffff;
+    line-height: 1.6;
 }
 
 /* Container for the entire page */
