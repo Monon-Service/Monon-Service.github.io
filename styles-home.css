@@ -67,8 +67,8 @@ header {
     padding: 20px;
     display: flex;
     flex-direction: column; /* Zorgt ervoor dat elementen onder elkaar staan */
-    justify-content: flex-start; /* Zorgt ervoor dat alles aan de bovenkant begint */
-    text-align: center; /* Zorgt ervoor dat de tekst in het midden staat */
+    justify-content: center; /* Zorgt ervoor dat alles in het midden staat */
+    align-items: center; /* Centreert de items horizontaal */
 }
 
 /* Sectie Stijlen */
