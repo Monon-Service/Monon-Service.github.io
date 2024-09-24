@@ -8,8 +8,11 @@ body, h1, h2, h3, h4, p {
 /* Set the body styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #2C2F33; /* Discord background color */
-    color: #FFFFFF; /* Text color */
+    background-color: #36393f; /* Discord achtergrondkleur */
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png');
+    background-size: cover;
+    color: #ffffff;
+    line-height: 1.6;
 }
 
 /* Container for the entire page */
@@ -21,8 +24,9 @@ body {
 
 /* Header styles */
 header {
-    background-color: #7289DA; /* Discord header color */
-    color: white;
+    background-color: #36393f; /* Discord header color */
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png')
+    color: #ffffff;
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #40444B; /* Header bottom border */
