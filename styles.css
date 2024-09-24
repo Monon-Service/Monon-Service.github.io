@@ -29,7 +29,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(54, 57, 63, 0.9); /* Slightly transparent background */
+    background-color: rgba(54, 57, 63, 0.95); /* Slightly more opaque */
     color: white;
     padding: 20px;
     text-align: center;
@@ -60,7 +60,7 @@ header {
 }
 
 .sidebar ul li a {
-    color: white; /* Link color */
+    color: #ffffff; /* Ensure link color is white for visibility */
     text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ header {
 }
 
 .command-item {
-    background-color: #343a40; /* Darker background for command items */
+    background-color: #444c56; /* Darker background for better contrast */
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 15px;
