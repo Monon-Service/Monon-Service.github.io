@@ -55,10 +55,25 @@ header {
 .content {
     flex: 1;
     padding: 20px;
+    display: flex;
+    flex-direction: column; /* Zorgt ervoor dat inhoud onder elkaar wordt weergegeven */
+    justify-content: center; /* Centraal uitlijnen in de flex-container */
 }
 
 .features, .cta {
     margin: 20px 0;
+}
+
+.features h3, .cta h3 {
+    text-align: left; /* Zorgt ervoor dat de kopjes links zijn uitgelijnd */
+}
+
+.features ul {
+    padding-left: 20px; /* Voeg een beetje padding toe aan de lijst */
+}
+
+.cta {
+    text-align: left; /* Zorgt ervoor dat de call-to-action links is uitgelijnd */
 }
 
 .cta a {
