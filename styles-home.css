@@ -57,7 +57,7 @@ header {
     line-height: 1.2; /* Pas de lijnhoogte aan indien nodig */
     transition: background-color 0.3s, transform 0.2s; /* Voor overgangseffecten */
     display: inline-block; /* Zorg ervoor dat de knop geen volledige breedte in beslag neemt */
-    height: 40px;
+    height: 20px;
 }
 
 
