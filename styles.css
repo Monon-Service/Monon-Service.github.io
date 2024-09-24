@@ -19,17 +19,22 @@ body {
 .container {
     display: flex;
     flex-direction: row; /* Changed to row for sidebar layout */
-    height: 100vh;
+    height: calc(100vh - 60px); /* Adjust height to account for fixed header */
+    margin-top: 60px; /* Margin to push content below the header */
 }
 
 /* Header styles */
 header {
-    background-color: #36393f; /* Discord header color */
-    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png'); /* Added missing semicolon */
+    position: fixed; /* Make the header fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(54, 57, 63, 0.9); /* Slightly transparent background */
     color: #ffffff;
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #40444B; /* Header bottom border */
+    z-index: 1000; /* Ensure header is above other elements */
 }
 
 /* Sidebar styles */
@@ -67,14 +72,16 @@ header {
 .content {
     flex: 1;
     padding: 20px;
+    color: #ffffff; /* Ensure text in main content is visible */
 }
 
 .command-item {
-    background-color: #343a40;
+    background-color: #343a40; /* Darker background for command items */
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 15px;
     padding: 15px;
+    color: #ffffff; /* Ensure text is white */
 }
 
 .command-item h4 {
