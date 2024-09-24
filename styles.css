@@ -29,7 +29,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(54, 57, 63, 0.95); /* Slightly more opaque */
+    background-color: #2f3136; /* Opaque background color for visibility */
     color: white;
     padding: 20px;
     text-align: center;
@@ -95,6 +95,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+/* Contact text styles */
+.contact-text {
+    color: white; /* Zorg ervoor dat de contacttekst wit is */
+    padding: 10px;
+    margin-top: 20px;
 }
 
 /* Responsive styles */
