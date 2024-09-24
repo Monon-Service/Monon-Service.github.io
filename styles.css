@@ -6,8 +6,9 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     background-color: #2c2f33;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png'); /* Subtiele textuur voor achtergrond */
     color: #fff;
     line-height: 1.6;
 }
@@ -24,9 +25,11 @@ header {
     border-bottom: 1px solid #7289da;
 }
 
-header h1 {
-    font-size: 2.5em;
+.discord-title {
+    font-family: 'Poppins', sans-serif; /* Titel in Discord-stijl font */
+    font-size: 3em;
     color: #7289da;
+    letter-spacing: 2px;
 }
 
 header p {
