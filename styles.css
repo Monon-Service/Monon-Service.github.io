@@ -24,10 +24,12 @@ body {
 
 /* Header styles */
 header {
-    background-color: #007BFF;
-    color: white;
+    background-color: #36393f; /* Discord header color */
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png')
+    color: #ffffff;
     padding: 20px;
     text-align: center;
+    border-bottom: 1px solid #40444B; /* Header bottom border */
 }
 
 /* Sidebar styles */
