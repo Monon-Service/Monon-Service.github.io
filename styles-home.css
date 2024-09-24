@@ -55,9 +55,6 @@ header {
 .content {
     flex: 1;
     padding: 20px;
-    display: flex;
-    flex-direction: column; /* Zorgt ervoor dat inhoud onder elkaar wordt weergegeven */
-    justify-content: center; /* Centraal uitlijnen in de flex-container */
 }
 
 .features, .cta {
