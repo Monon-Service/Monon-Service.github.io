@@ -28,6 +28,12 @@ header {
     width: 100%;
 }
 
+/* Logo stijl */
+.title-logo {
+    max-width: 50px; /* Pas de grootte van de logo aan naar wens */
+    vertical-align: middle; /* Zorgt ervoor dat de logo goed uitgelijnd is met de tekst */
+}
+
 /* Sidebar Stijl */
 .sidebar {
     width: 200px;
