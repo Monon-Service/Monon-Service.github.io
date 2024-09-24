@@ -11,7 +11,7 @@ body {
     background-color: #36393f; /* Discord achtergrondkleur */
     background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png');
     background-size: cover;
-    color: #ffffff;
+    color: #36393f;
     line-height: 1.6;
 }
 
@@ -35,7 +35,7 @@ header {
 /* Sidebar styles */
 .sidebar {
     background-color: #343a40;
-    color: white;
+    color: #ffffff;
     padding: 15px;
     width: 200px;
     flex-shrink: 0;
