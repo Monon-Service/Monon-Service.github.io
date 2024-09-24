@@ -17,10 +17,10 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    display: flex;
+    display: flex; /* Flexbox voor lay-out */
 }
 
+/* Header Stijl */
 header {
     text-align: center;
     padding: 20px 0;
@@ -28,6 +28,7 @@ header {
     width: 100%;
 }
 
+/* Sidebar Stijl */
 .sidebar {
     width: 200px;
     padding: 20px;
@@ -52,25 +53,31 @@ header {
     text-decoration: none;
 }
 
+/* Content Stijl */
 .content {
-    flex: 1;
+    flex: 1; /* Zorgt ervoor dat de content de resterende ruimte in de flex-container opvult */
     padding: 20px;
+    display: flex;
+    flex-direction: column; /* Zorgt ervoor dat elementen onder elkaar staan */
+    justify-content: flex-start; /* Zorgt ervoor dat alles aan de bovenkant begint */
 }
 
+/* Sectie Stijlen */
 .features, .cta {
     margin: 20px 0;
+    text-align: left; /* Zorg ervoor dat de tekst links uitgelijnd is */
 }
 
 .features h3, .cta h3 {
-    text-align: left; /* Zorgt ervoor dat de kopjes links zijn uitgelijnd */
+    margin-bottom: 10px; /* Voeg een beetje ruimte toe onder de kopjes */
 }
 
 .features ul {
-    padding-left: 20px; /* Voeg een beetje padding toe aan de lijst */
+    padding-left: 20px; /* Voeg padding toe voor een nette lijst */
 }
 
 .cta {
-    text-align: left; /* Zorgt ervoor dat de call-to-action links is uitgelijnd */
+    margin-top: 20px; /* Voegt extra ruimte toe voor de call-to-action sectie */
 }
 
 .cta a {
@@ -78,6 +85,7 @@ header {
     text-decoration: underline;
 }
 
+/* Footer Stijl */
 footer {
     text-align: center;
     padding: 15px;
