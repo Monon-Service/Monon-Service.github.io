@@ -29,11 +29,16 @@ header {
     width: 100%;
 }
 
+/* Discord Title Stijl */
+.discord-title {
+    display: flex; /* Flexbox voor uitlijning */
+    align-items: center; /* Verticaal centreren van logo en tekst */
+}
+
 /* Logo stijl */
 .title-logo {
     width: 30px;  /* Specifieke breedte instellen */
     height: auto; /* Hoogte automatisch voor aspect ratio */
-    vertical-align: middle; /* Zorgt ervoor dat de logo goed uitgelijnd is met de tekst */
     margin-right: 10px; /* Voeg wat ruimte toe tussen het logo en de tekst */
 }
 
