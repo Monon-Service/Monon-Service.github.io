@@ -56,10 +56,10 @@ header {
     font-size: 16px;
     line-height: 1.2; /* Pas de lijnhoogte aan indien nodig */
     transition: background-color 0.3s, transform 0.2s; /* Voor overgangseffecten */
-    display: inline-block; /* Zorg ervoor dat de knop geen volledige breedte in beslag neemt */
-    height: 20px;
+    display: inline-flex; /* Flexbox gebruiken voor uitlijning */
+    align-items: center; /* Centreert de tekst verticaal */
+    justify-content: center; /* Centreert de tekst horizontaal */
 }
-
 
 .button:hover {
     background-color: #5b6eae; /* Donkerdere kleur bij hover */
