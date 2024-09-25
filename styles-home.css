@@ -48,7 +48,7 @@ header {
 .button {
     background-color: #7289da; /* Discord-blauw */
     color: #ffffff;
-    padding: 10px 30px; /* Verminder de verticale padding */
+    padding: 20px 30px; /* Verminder de verticale padding */
     margin: 15px 0; /* Ruimte tussen knoppen */
     border: none;
     border-radius: 5px;
